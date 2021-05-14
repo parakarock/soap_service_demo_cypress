@@ -1,0 +1,22 @@
+{
+  "name": "soap_service_demo_cypress",
+  "version": "1.0.0",
+  "description": "for test soap api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "7.2.0"
+  },
+  "dependencies": {
+    "cypress-dotenv": "1.2.2",
+    "dotenv": "9.0.0",
+    "mochawesome": "6.2.2",
+    "mochawesome-merge": "4.2.0",
+    "mochawesome-report-generator": "5.2.0",
+    "typescript": "4.2.4"
+  }
+}
