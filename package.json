@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:demo": "npx cypress run --spec cypress/integration/soap_service_demo.spec.js",
-    "test:client": "npx cypress run --spec cypress/integration/soap_service_demo_client.spec.js"
+    "test:client": "npx cypress run --spec cypress/integration/soap_service_demo_client.spec.js",
+    "test:all": "npx cypress run"
   },
   "author": "",
   "license": "ISC",
