@@ -10,7 +10,5 @@ services:
     image: soap_service_demo_client:latest
     ports:
       - 8081:8081
-    environment: 
-      - ENDPOINT_SERVICE_COURSE = http://172.18.0.2:8082/ws
     depends_on: 
         - app1
