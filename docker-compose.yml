@@ -5,10 +5,18 @@ services:
     image: soap_service_demo:latest
     ports:
       - 8082:8082
+    networks:
+      - soap_service
 
   app2:
     image: soap_service_demo_client:latest
     ports:
       - 8081:8081
-    depends_on: 
-        - app1
+    environment: 
+      - ENDPOINT_SERVICE_COURSE = http://172.18.0.2:8082/ws
+    networks:
+      - soap_service
+
+networks:
+   soap_service:
+    driver: bridge
