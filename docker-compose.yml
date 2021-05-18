@@ -13,7 +13,7 @@ services:
     ports:
       - 8081:8081
     environment: 
-      - ENDPOINT_SERVICE_COURSE = http://172.18.0.2:8082/ws
+      - ENDPOINT_SERVICE_COURSE=http://172.18.0.2:8082/ws
     networks:
       - soap_service
 
