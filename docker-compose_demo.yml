@@ -2,7 +2,7 @@
 version: '3'
 services:
   app:
-    image: parakarock/soap_service_demo_client:${version_tag}
+    image: parakarock/soap_service_demo:${version_tag}
     ports:
       - 8082:8082
 
